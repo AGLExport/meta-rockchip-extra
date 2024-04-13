@@ -1,8 +1,8 @@
 # NanoPC-T6 support
 FILESEXTRAPATHS:prepend := "${THISDIR}/u-boot-nanopct6:"
 
-SRCREV:nanopct6 = "93ceeb4da7efbabefe9b88b57093f90ea731d502"
-SRCREV_rkbin:nanopct6 = "d4dd7145c2b99100b6f703805a7e84888df4967f"
+SRCREV:nanopct6 = "f1efd4ba0cd3d65e9fbd73d9899bbf48730e3baa"
+SRCREV_rkbin:nanopct6 = "70a4b3fc75053d10a2718a75591a2fe998a207de"
 SRC_URI:nanopct6 = " \
     git://github.com/friendlyarm/uboot-rockchip.git;protocol=https;branch=nanopi6-v2017.09; \
     git://github.com/friendlyarm/rkbin.git;protocol=https;branch=nanopi6;name=rkbin;destsuffix=rkbin; \
